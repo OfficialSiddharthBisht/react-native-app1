@@ -11,6 +11,7 @@ function App(){
           <FlatCard />
           <ElevatedCard />
           <FancyCard />
+          <FancyCard />
         </View>
       </ScrollView>
     </SafeAreaView>

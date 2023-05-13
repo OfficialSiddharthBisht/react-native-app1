@@ -27,30 +27,54 @@ const styles = StyleSheet.create({
     headingText :{
         fontSize: 22,
         fontWeight:"bold",
-        paddingHorizontal: 12,
+        paddingHorizontal: 10,
       },
       card:{
-        //
+        width: 380,
+        height: 360,
+        borderRadius:8,
+        marginVertical: 14,
+        marginHorizontal:18,
+        alignSelf: 'center',
       },
       cardElevated:{
-        //
+        backgroundColor:'white',
+        elevation: 3,
+        shadowOffset:{
+          width: 1,
+          height: 1,
+        }
       },
       cardImage:{
-        height:160,
+        height:220,
+        marginBottom:8,
+        borderTopLeftRadius: 6,
+        borderTopRightRadius: 4,
       },
       cardBody:{
-        //
+        flex:1 ,
+        flexGrow:1 ,
+        paddingHorizontal: 12,
       },
       cardTitle:{
-        //
+        color:"black",
+        fontSize:22,
+        fontWeight:'bold',
+        marginBottom:4,
       },
       cardLablel:{
-        //
+        color:"black",
+        fontSize: 16,
+        marginBottom: 6,
       },
       cardDescription:{
-        //
+        color:"grey",
+        fontSize: 12,
+        marginTop: 6,
+        marginBottom:12,
+        flexShrink:1,
       },
       cardFooter:{
-        //
+        color:"black"
       }
 })
