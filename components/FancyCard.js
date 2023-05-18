@@ -7,7 +7,7 @@ export default function FancyCard() {
       <Text style= {styles.headingText}>FancyCard</Text>
       <View style={[styles.card,styles.cardElevated]}>
         <Image 
-            source={{uri: 'https://reactjs.org/logo-og.png'}}
+            source={{uri: 'https://cdn.pixabay.com/photo/2023/03/20/15/37/postcards-7865295_640.jpg'}}
             style={styles.cardImage}
         />
         <View style={styles.cardBody}>
@@ -61,11 +61,14 @@ const styles = StyleSheet.create({
         fontSize:22,
         fontWeight:'bold',
         marginBottom:4,
+        paddingHorizontal: 10,
       },
       cardLablel:{
         color:"black",
         fontSize: 16,
         marginBottom: 6,
+        paddingHorizontal: 10,
+
       },
       cardDescription:{
         color:"grey",
@@ -73,8 +76,12 @@ const styles = StyleSheet.create({
         marginTop: 6,
         marginBottom:12,
         flexShrink:1,
+        paddingHorizontal: 10,
+
       },
       cardFooter:{
-        color:"black"
+        color:"black",
+        paddingHorizontal: 10,
+
       }
 })
