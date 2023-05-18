@@ -64,14 +64,13 @@ const styles = StyleSheet.create({
       borderRadius: 6,
       marginVertical:12,
       marginHorizontal:16,
-      
     },
     elevatedCard:{
       backgroundColor:'#E07C24',
-      elevation: 3,
+      elevation: 2,
       shadowOffset:{
-        width:2,
-        height: 2,
+        width:1,
+        height: 1,
       },
       shadowColor:'#333',
       shadowOpacity:0.6,
@@ -89,7 +88,7 @@ const styles = StyleSheet.create({
 
     },   
     cardImage: {
-      height:250,
+      height:100,
     },
     bodyContainer:{
       padding:10,    
@@ -104,9 +103,8 @@ const styles = StyleSheet.create({
       fontSize:18,
       color:'grey',
       backgroundColor:'#fff',
-      paddingHorizontal:'11',
-      paddingVertical:'6',
+      paddingHorizontal:11,
+      paddingVertical:6,
       borderRadius:6,
-
     }
 })
